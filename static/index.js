@@ -441,11 +441,11 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '试着好好练一下？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
-        return '人？';
+        if (cps <= 5) return '嘛，也就这样吧';
+        if (cps <= 8) return '哦哦，小姐姐挺厉害的嘛！';
+        if (cps <= 10)  return '不愧是制作人小姐姐，真是不容小觑的手速呀！kyahaha~';
+        if (cps <= 15) return '这可真是了不得呀';
+        return '在咱的故乡说不定都算得上是一等一的高手哦~';
     }
 
     function toStr(obj) {
